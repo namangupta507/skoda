@@ -216,7 +216,6 @@ div#navbarSupportedContent {
 }
 .t-slider-inner img {
     height: 75vh;
-    background: red;
     object-fit: cover;
     object-position: center;
 }
