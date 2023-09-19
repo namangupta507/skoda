@@ -113,11 +113,44 @@ img{
 .header-logo img {
     max-width: 288px;
 }
+li.nav_button {
+    list-style: none;
+    margin-top: 10px;
+}
+.navbar-brand img {
+    width: 100%;
+    max-width: 240px;
+    object-fit: cover;
+}
+a.nav-link {
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.cus-btn {
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 28px;
+    color: #000;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+ul.navbar-nav{
+    gap: 30px;
+}
+div#navbarSupportedContent {
+    justify-content: center;
+    align-items: center;
+}
 .menu-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .menu-right {
     display: flex;
     align-items: center;
